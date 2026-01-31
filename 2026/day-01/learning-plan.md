@@ -12,12 +12,13 @@ Day 01 – Introduction to DevOps and Cloud
 - what is your understanding of DevOps and Cloud Engineering?
 
 ANS:- devops is culture + set of practices that bring development and operations together.its focus on Collaboration,Automation,Fast, reliable delivery.
-its usually involves CI/CD pipelines – automated build, test, and deploy (GitHub Actions, GitLab CI, Jenkins)
-Infrastructure as Code – provisioning infra with code (Terraform, CloudFormation)
-Monitoring & observability – knowing what’s broken before users complain (Prometheus, Grafana, ELK)
-Automation everywhere – fewer manual steps = fewer mistakes
-Reliability & feedback loops – SLIs, SLOs, error budgets
-devops mindset :- Small, frequent deployments , Fail fast, recover faster,Measure everything,Security is baked in (DevSecOps)
+- its usually involves:-
+  CI/CD pipelines – automated build, test, and deploy (GitHub Actions, GitLab CI, Jenkins)
+  Infrastructure as Code – provisioning infra with code (Terraform, CloudFormation)
+  Monitoring & observability – knowing what’s broken before users complain (Prometheus, Grafana, ELK)
+  Automation everywhere – fewer manual steps = fewer mistakes
+  Reliability & feedback loops – SLIs, SLOs, error budgets
+- devops mindset :- Small, frequent deployments , Fail fast, recover faster,Measure everything,Security is baked in (DevSecOps)
 Cloud Engineering:- 
 Cloud Engineering is about designing, building, and maintaining systems on cloud platforms.
 Core idea about cloud engineering is that Use cloud-native services to build scalable, resilient, cost-efficient systems.
