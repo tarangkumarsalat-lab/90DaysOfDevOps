@@ -1,5 +1,6 @@
 Day 01 – Introduction to DevOps and Cloud
-Task 1
+
+- Task 1
 Today’s goal is to set the foundation for your DevOps journey.
 90-day personal DevOps learning plan
 What is your understanding of DevOps and Cloud Engineering?
