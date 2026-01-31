@@ -39,3 +39,5 @@ X — Dead --> Process is fully removed from the system , Rarely visible to user
 
   New--> Running (R)--> Sleeping (S / D)--> Stopped (T)--> Zombie (Z)-->Dead (X)
 
+  - Why process states matter :- Many R → CPU saturation , Many S → healthy waiting , Persistent D → I/O or storage issue , Many Z → bad process management
+
