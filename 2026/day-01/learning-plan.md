@@ -9,7 +9,7 @@ Day 01 – Introduction to DevOps and Cloud
 - 4 to 6 hours weekends
 - 3 post on linkedin
   
---  What is your understanding of DevOps and Cloud Engineering?
+- what is your understanding of DevOps and Cloud Engineering?
 
 ANS:- devops is culture + set of practices that bring development and operations together.its focus on Collaboration,Automation,Fast, reliable delivery.
 its usually involves CI/CD pipelines – automated build, test, and deploy (GitHub Actions, GitLab CI, Jenkins)
