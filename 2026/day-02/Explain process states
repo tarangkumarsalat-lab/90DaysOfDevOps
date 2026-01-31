@@ -1,3 +1,0 @@
-Explain process states (running, sleeping, zombie, etc.)
-
-- A process state describes what a process is currently doing from the kernel’s point of view — whether it’s executing, waiting, stopped, or finished.
