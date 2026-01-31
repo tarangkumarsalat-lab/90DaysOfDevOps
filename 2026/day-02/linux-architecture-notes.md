@@ -128,7 +128,7 @@ Pages (usually 4KB)
 
 Page cache (file caching)
 
-Copy-on-write (fork is cheap!)
+Copy-on-write 
 
 OOM killer (when memory runs out 😬)
 
