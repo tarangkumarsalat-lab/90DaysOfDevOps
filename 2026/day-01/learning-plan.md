@@ -19,7 +19,7 @@ ANS:- devops is culture + set of practices that bring development and operations
   Automation everywhere – fewer manual steps = fewer mistakes
   Reliability & feedback loops – SLIs, SLOs, error budgets
 - devops mindset :- Small, frequent deployments , Fail fast, recover faster,Measure everything,Security is baked in (DevSecOps)
--
+
 - Cloud Engineering:- 
 Cloud Engineering is about designing, building, and maintaining systems on cloud platforms.
 Core idea about cloud engineering is that Use cloud-native services to build scalable, resilient, cost-efficient systems.
@@ -36,5 +36,5 @@ Core idea about cloud engineering is that Use cloud-native services to build sca
 - in devops the culture & practices , how software is deliverd , CI/CD , automation and Tooling and workflows 
 - in Cloud engineering :- Platform & architecture , Where software runs , Cloud services, networking , Infrastructure design
 
-- 
+
 - Jobs pofile :- “Cloud DevOps Engineer” , “Platform Engineer” , “SRE”
