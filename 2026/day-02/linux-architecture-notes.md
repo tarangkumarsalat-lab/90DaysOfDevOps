@@ -53,6 +53,7 @@ Main point :- User programs never talk to hardware directly.
 They go through the kernel.
 
 - 3. User space vs Kernel space
+     
 🔒 Kernel space
 
 Full access to CPU, memory, devices
