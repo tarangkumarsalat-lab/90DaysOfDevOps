@@ -1,3 +1,3 @@
 - Day 02 – Linux Architecture, Processes, and systemd
 - Today’s goal is to understand how Linux works under the hood.
-- 1. From power button → Linux kernel
+- 1.From power button → Linux kernel
