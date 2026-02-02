@@ -72,3 +72,40 @@ grep "text" file.txt           # Search inside file
 
 grep -r "text" folder/         # Search recursively
 
+- Disk Usage & Space
+
+  df -h                   # Disk space usage
+  
+du -h                   # Directory size
+
+du -sh folder            # Folder total size
+
+- 🧾 File Info
+
+stat file.txt            # Detailed file info
+
+file file.txt            # File type
+
+- 🔗 Links
+
+ln file linkname         # Hard link
+
+ln -s file symlink       # Soft link
+
+
+- 🗜️ Compression & Archives
+
+tar -cvf file.tar folder/       # Create tar
+
+tar -xvf file.tar               # Extract tar
+
+tar -czvf file.tar.gz folder/   # Create tar.gz
+
+tar -xzvf file.tar.gz            # Extract tar.gz
+
+
+
+
+
+
+
