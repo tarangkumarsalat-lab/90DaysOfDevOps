@@ -8,6 +8,8 @@ ls -l            # Long listing
 
 ls -a            # Show hidden files
 
+ls -al           # formatted listing with hidden files
+
 cd foldername    # Move into directory
 
 cd ..            # Go up one level
@@ -22,15 +24,23 @@ mkdir folder            # Create directory
 
 mkdir -p a/b/c          # Create nested directories
 
-rm file.txt             # Delete file
+rm file.txt             # Delete file ( Please remeber file extension )
 
-rm -r folder             # Delete directory
+rm -r folder's Name     # Delete directory
 
 cp file1 file2          # Copy file
 
 cp -r dir1 dir2         # Copy directory
 
 mv old new              # Move or rename
+
+rm -f file name         # force remove file
+
+rm -rf directory name   # force remove directory 
+
+cp -r dir1 dir 2        # copy dir1 to dir2 , create dir2 if it does not exit
+
+mv file1 file2          # rename or move file1 to file2 , if file2 is an exsiting directory , move file1 into directory file2
 
 - Viewing File Content 😊😊😊
 
