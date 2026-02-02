@@ -1,0 +1,74 @@
+- Directory Navigation 😊
+
+pwd              # Show current directory
+
+ls               # List files
+
+ls -l            # Long listing
+
+ls -a            # Show hidden files
+
+cd foldername    # Move into directory
+
+cd ..            # Go up one level
+
+cd ~             # Home directory
+
+- File & Directory Management 😊😊
+
+touch file.txt          # Create empty file
+
+mkdir folder            # Create directory
+
+mkdir -p a/b/c          # Create nested directories
+
+rm file.txt             # Delete file
+
+rm -r folder             # Delete directory
+
+cp file1 file2          # Copy file
+
+cp -r dir1 dir2         # Copy directory
+
+mv old new              # Move or rename
+
+- Viewing File Content 😊😊😊
+
+cat file.txt            # View entire file
+
+less file.txt           # Scrollable view
+
+more file.txt           # Page-by-page view
+
+head file.txt           # First 10 lines
+
+tail file.txt           # Last 10 lines
+
+tail -f file.log        # Live log view
+
+
+- Permissions & Ownership 😊😊😊😊
+
+ls -l                   # View permissions
+
+chmod 755 file.sh       # Change permissions
+
+chmod +x file.sh        # Make executable
+
+chown user file.txt     # Change owner
+
+chgrp group file.txt    # Change group
+
+( Permission format: r = read, w = write, x = execute ) 
+
+
+Search & Find 🔍 
+
+find /path -name file.txt      # Find file
+
+locate filename                # Fast search (needs updatedb)
+
+grep "text" file.txt           # Search inside file
+
+grep -r "text" folder/         # Search recursively
+
