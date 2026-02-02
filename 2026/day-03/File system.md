@@ -42,6 +42,10 @@ cp -r dir1 dir 2        # copy dir1 to dir2 , create dir2 if it does not exit
 
 mv file1 file2          # rename or move file1 to file2 , if file2 is an exsiting directory , move file1 into directory file2
 
+ln -s file link - create symbolic link to file
+
+touch file              # create and update file
+
 - Viewing File Content 😊😊😊
 
 cat file.txt            # View entire file
@@ -71,6 +75,11 @@ chgrp group file.txt    # Change group
 
 ( Permission format: r = read, w = write, x = execute ) 
 
+chmod octal file        # change the permissions of file to octal , which can be found separately for user , group , and world by adding 1. 4 - read (r) , 2 - write (w) , 1 - execute (x).
+
+examples :- chmod 777 - read , write , execute for all
+
+chmod 755 - rwe 
 
 Search & Find 🔍 
 
