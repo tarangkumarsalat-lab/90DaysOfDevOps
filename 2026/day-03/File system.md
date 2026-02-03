@@ -99,6 +99,7 @@ du -h                   # Directory size
 
 du -sh folder            # Folder total size
 
+
 - 🧾 File Info
 
 stat file.txt            # Detailed file info
@@ -118,12 +119,56 @@ tar -cvf file.tar folder/       # Create tar
 
 tar -xvf file.tar               # Extract tar
 
+tar xf file.tar                 # extract the files from file.tar
+
 tar -czvf file.tar.gz folder/   # Create tar.gz
 
-tar -xzvf file.tar.gz            # Extract tar.gz
+tar czf file.tar.gz  files      # create a tar with Gzip compression 
+
+tar -xzvf file.tar.gz           # Extract tar.gz
+
+tar xzf file.tar.gz            # extract a tar using Gzip
+
+tar cjf file.tar.bz2           # create a tar with Bzip2 compression
+
+tar xjf file.tar.bz2           # extract a tar using Bzip2
+
+gzip file                     # compresses file and renames it to file.gz
+
+gzip -d file.gz               # decompresses file file.gz backto file
 
 
+- system info :-
 
+date  # show the current date and time
+
+cal  # show this month's calendar
+
+uptime # show current uptime
+
+w # display who is online
+
+whoami # who you are logged in as
+
+finger user # display information about user
+
+uname -a # show kernal information
+
+cat /proc/cpuinfo # cpu information
+
+cat /proc/meminfo # memory information
+
+man # show the manual command
+
+df # show disk usage
+
+du # show directory space usage
+
+free # show memory and swap usage
+
+whereis app # show possible location of app
+
+which app # show which app will be run by default 
 
 
 
